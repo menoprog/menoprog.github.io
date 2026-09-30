@@ -57,7 +57,15 @@
   <p>내용이 바뀌면 이 페이지에 시행일과 함께 갱신합니다.</p>
 
   <h2>8. 문의</h2>
-  <p>이 방침에 관한 문의: <span id="contact">[연락 이메일]</span></p>
+  <p>이 방침에 관한 문의: <span id="contact"><noscript>sehyung.oh [at] gmail [dot] com</noscript></span></p>
+<script>
+(function () {
+  var u = 'ho.gnuyhes'.split('').reverse().join('');
+  var d = 'moc.liamg'.split('').reverse().join('');
+  var a = u + '@' + d, e = document.getElementById('contact'), l = document.createElement('a');
+  l.href = 'mailto:' + a; l.textContent = a; e.appendChild(l);
+})();
+</script>
 
   <footer><a href="index.html">← 뇌스낵 업로더</a></footer>
 </main>
